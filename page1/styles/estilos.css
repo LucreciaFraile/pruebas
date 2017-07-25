@@ -1,0 +1,775 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: white;
+  align: center;
+  margin: 0 auto;
+  text-align: center; }
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+      width: 100%;
+      height: 100%;
+      max-width: 460px; }
+      body #titulo1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 26px;
+        font-weight: 550; }
+      body #texto1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #d9d9d9;
+        font-size: 24px;
+        font-weight: 550; }
+      body #titulo2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 3rem;
+        font-weight: 300; }
+      body #texto2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 600; } }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+      width: 100%;
+      height: 100%;
+      max-width: 768px; }
+      body #titulo1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 2rem;
+        font-weight: 550; }
+      body #texto1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #d9d9d9;
+        font-size: 1.5rem;
+        font-weight: 550; }
+      body #titulo2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 3.5rem;
+        font-weight: 300; }
+      body #texto2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #FFF;
+        font-size: 1rem;
+        font-weight: 600; } }
+  @media screen and (min-width: 1025px) {
+    body {
+      width: 1200px;
+      height: 800px; }
+      body #titulo1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 2rem;
+        font-weight: 550; }
+      body #texto1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #d9d9d9;
+        font-size: 1.5rem;
+        font-weight: 550; }
+      body #titulo2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 5rem;
+        font-weight: 300; }
+      body #texto2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #FFF;
+        font-size: 1.3rem;
+        font-weight: 600; } }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  #header {
+    margin: 0 auto;
+    width: 100%;
+    height: 90px; }
+    #header #titulo1 {
+      font-family: 'Open Sans Condensed', sans-serif;
+      color: #c65353;
+      font-size: 26px;
+      font-weight: 550; }
+    #header #texto1 {
+      font-family: 'Open Sans Condensed', sans-serif;
+      color: #d9d9d9;
+      font-size: 24px;
+      font-weight: 550; }
+    #header #titulo2 {
+      font-family: 'Open Sans Condensed', sans-serif;
+      color: #c65353;
+      font-size: 3rem;
+      font-weight: 300; }
+    #header #texto2 {
+      font-family: 'Open Sans Condensed', sans-serif;
+      color: #FFF;
+      font-size: 18px;
+      font-weight: 600; } }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #header {
+    margin: 0 auto;
+    width: 350px;
+    height: 90px; }
+    #header #titulo1 {
+      font-family: 'Open Sans Condensed', sans-serif;
+      color: #c65353;
+      font-size: 2rem;
+      font-weight: 550; }
+    #header #texto1 {
+      font-family: 'Open Sans Condensed', sans-serif;
+      color: #d9d9d9;
+      font-size: 1.5rem;
+      font-weight: 550; }
+    #header #titulo2 {
+      font-family: 'Open Sans Condensed', sans-serif;
+      color: #c65353;
+      font-size: 3.5rem;
+      font-weight: 300; }
+    #header #texto2 {
+      font-family: 'Open Sans Condensed', sans-serif;
+      color: #FFF;
+      font-size: 1rem;
+      font-weight: 600; } }
+@media screen and (min-width: 1025px) {
+  #header {
+    margin: 0 auto;
+    width: 100%;
+    height: 90px; }
+    #header #titulo1 {
+      font-family: 'Open Sans Condensed', sans-serif;
+      color: #c65353;
+      font-size: 2rem;
+      font-weight: 550; }
+    #header #texto1 {
+      font-family: 'Open Sans Condensed', sans-serif;
+      color: #d9d9d9;
+      font-size: 1.5rem;
+      font-weight: 550; }
+    #header #titulo2 {
+      font-family: 'Open Sans Condensed', sans-serif;
+      color: #c65353;
+      font-size: 5rem;
+      font-weight: 300; }
+    #header #texto2 {
+      font-family: 'Open Sans Condensed', sans-serif;
+      color: #FFF;
+      font-size: 1.3rem;
+      font-weight: 600; } }
+
+#contenido {
+  margin: 0 auto;
+  width: 100%;
+  background: url("../assets/images/background.png") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: left; }
+  #contenido article {
+    align-content: left; }
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+      #contenido article {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        padding-left: 15px; }
+        #contenido article #titulo1 {
+          font-family: 'Open Sans Condensed', sans-serif;
+          color: #c65353;
+          font-size: 26px;
+          font-weight: 550; }
+        #contenido article #texto1 {
+          font-family: 'Open Sans Condensed', sans-serif;
+          color: #d9d9d9;
+          font-size: 24px;
+          font-weight: 550; }
+        #contenido article #titulo2 {
+          font-family: 'Open Sans Condensed', sans-serif;
+          color: #c65353;
+          font-size: 3rem;
+          font-weight: 300; }
+        #contenido article #texto2 {
+          font-family: 'Open Sans Condensed', sans-serif;
+          color: #FFF;
+          font-size: 18px;
+          font-weight: 600; } }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      #contenido article {
+        width: 600px;
+        height: 100%;
+        padding-left: 120px; }
+        #contenido article #titulo1 {
+          font-family: 'Open Sans Condensed', sans-serif;
+          color: #c65353;
+          font-size: 2rem;
+          font-weight: 550; }
+        #contenido article #texto1 {
+          font-family: 'Open Sans Condensed', sans-serif;
+          color: #d9d9d9;
+          font-size: 1.5rem;
+          font-weight: 550; }
+        #contenido article #titulo2 {
+          font-family: 'Open Sans Condensed', sans-serif;
+          color: #c65353;
+          font-size: 3.5rem;
+          font-weight: 300; }
+        #contenido article #texto2 {
+          font-family: 'Open Sans Condensed', sans-serif;
+          color: #FFF;
+          font-size: 1rem;
+          font-weight: 600; }
+        #contenido article p {
+          width: 530px; } }
+    @media screen and (min-width: 1025px) {
+      #contenido article {
+        width: 850px;
+        height: 100%;
+        padding-left: 80px; }
+        #contenido article #titulo1 {
+          font-family: 'Open Sans Condensed', sans-serif;
+          color: #c65353;
+          font-size: 2rem;
+          font-weight: 550; }
+        #contenido article #texto1 {
+          font-family: 'Open Sans Condensed', sans-serif;
+          color: #d9d9d9;
+          font-size: 1.5rem;
+          font-weight: 550; }
+        #contenido article #titulo2 {
+          font-family: 'Open Sans Condensed', sans-serif;
+          color: #c65353;
+          font-size: 5rem;
+          font-weight: 300; }
+        #contenido article #texto2 {
+          font-family: 'Open Sans Condensed', sans-serif;
+          color: #FFF;
+          font-size: 1.3rem;
+          font-weight: 600; } }
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    #contenido {
+      height: 600px;
+      min-width: 350px; }
+      #contenido #titulo1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 26px;
+        font-weight: 550; }
+      #contenido #texto1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #d9d9d9;
+        font-size: 24px;
+        font-weight: 550; }
+      #contenido #titulo2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 3rem;
+        font-weight: 300; }
+      #contenido #texto2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 600; }
+      #contenido h1 {
+        padding-top: 15px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #contenido {
+      height: 500px;
+      min-width: 768px; }
+      #contenido #titulo1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 2rem;
+        font-weight: 550; }
+      #contenido #texto1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #d9d9d9;
+        font-size: 1.5rem;
+        font-weight: 550; }
+      #contenido #titulo2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 3.5rem;
+        font-weight: 300; }
+      #contenido #texto2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #FFF;
+        font-size: 1rem;
+        font-weight: 600; }
+      #contenido h1 {
+        padding-top: 30px; } }
+  @media screen and (min-width: 1025px) {
+    #contenido {
+      height: 550px; }
+      #contenido #titulo1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 2rem;
+        font-weight: 550; }
+      #contenido #texto1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #d9d9d9;
+        font-size: 1.5rem;
+        font-weight: 550; }
+      #contenido #titulo2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 5rem;
+        font-weight: 300; }
+      #contenido #texto2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #FFF;
+        font-size: 1.3rem;
+        font-weight: 600; }
+      #contenido h1 {
+        padding-top: 160px; } }
+
+#cuadrado, #cuadradofijo {
+  display: flex;
+  float: left;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -webkit-align-content: center;
+  -moz-align-content: center;
+  -ms-align-content: center;
+  align-content: center;
+  transition: background 0.1s linear;
+  background: white;
+  position: relative; }
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    #cuadrado, #cuadradofijo {
+      width: 40px;
+      height: 50px; }
+      #cuadrado #titulo1, #cuadradofijo #titulo1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 26px;
+        font-weight: 550; }
+      #cuadrado #texto1, #cuadradofijo #texto1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #d9d9d9;
+        font-size: 24px;
+        font-weight: 550; }
+      #cuadrado #titulo2, #cuadradofijo #titulo2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 3rem;
+        font-weight: 300; }
+      #cuadrado #texto2, #cuadradofijo #texto2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 600; } }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #cuadrado, #cuadradofijo {
+      width: 60px;
+      height: 60px; }
+      #cuadrado #titulo1, #cuadradofijo #titulo1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 2rem;
+        font-weight: 550; }
+      #cuadrado #texto1, #cuadradofijo #texto1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #d9d9d9;
+        font-size: 1.5rem;
+        font-weight: 550; }
+      #cuadrado #titulo2, #cuadradofijo #titulo2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 3.5rem;
+        font-weight: 300; }
+      #cuadrado #texto2, #cuadradofijo #texto2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #FFF;
+        font-size: 1rem;
+        font-weight: 600; } }
+  @media screen and (min-width: 1025px) {
+    #cuadrado, #cuadradofijo {
+      width: 60px;
+      height: 60px; }
+      #cuadrado #titulo1, #cuadradofijo #titulo1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 2rem;
+        font-weight: 550; }
+      #cuadrado #texto1, #cuadradofijo #texto1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #d9d9d9;
+        font-size: 1.5rem;
+        font-weight: 550; }
+      #cuadrado #titulo2, #cuadradofijo #titulo2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 5rem;
+        font-weight: 300; }
+      #cuadrado #texto2, #cuadradofijo #texto2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #FFF;
+        font-size: 1.3rem;
+        font-weight: 600; } }
+
+#cuadrado {
+  margin-top: 30px;
+  display: flex;
+  float: left; }
+  #cuadrado:hover {
+    background: #ffe6e6; }
+
+#cuadradofijo {
+  margin: 0; }
+
+#triangulofijo {
+  position: absolute;
+  align-self: center; }
+
+#triangulo, #triangulofijo {
+  width: 0;
+  height: 0;
+  margin: auto; }
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    #triangulo, #triangulofijo {
+      margin-top: 5px;
+      border-top: 20px solid transparent;
+      border-bottom: 20px solid transparent;
+      border-left: 25px solid  #ecc6c6; }
+      #triangulo #titulo1, #triangulofijo #titulo1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 26px;
+        font-weight: 550; }
+      #triangulo #texto1, #triangulofijo #texto1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #d9d9d9;
+        font-size: 24px;
+        font-weight: 550; }
+      #triangulo #titulo2, #triangulofijo #titulo2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 3rem;
+        font-weight: 300; }
+      #triangulo #texto2, #triangulofijo #texto2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 600; } }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #triangulo, #triangulofijo {
+      border-top: 25px solid transparent;
+      border-bottom: 25px solid transparent;
+      border-left: 30px solid  #ecc6c6; }
+      #triangulo #titulo1, #triangulofijo #titulo1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 2rem;
+        font-weight: 550; }
+      #triangulo #texto1, #triangulofijo #texto1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #d9d9d9;
+        font-size: 1.5rem;
+        font-weight: 550; }
+      #triangulo #titulo2, #triangulofijo #titulo2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 3.5rem;
+        font-weight: 300; }
+      #triangulo #texto2, #triangulofijo #texto2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #FFF;
+        font-size: 1rem;
+        font-weight: 600; } }
+  @media screen and (min-width: 1025px) {
+    #triangulo, #triangulofijo {
+      border-top: 25px solid transparent;
+      border-bottom: 25px solid transparent;
+      border-left: 40px solid  #ecc6c6; }
+      #triangulo #titulo1, #triangulofijo #titulo1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 2rem;
+        font-weight: 550; }
+      #triangulo #texto1, #triangulofijo #texto1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #d9d9d9;
+        font-size: 1.5rem;
+        font-weight: 550; }
+      #triangulo #titulo2, #triangulofijo #titulo2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 5rem;
+        font-weight: 300; }
+      #triangulo #texto2, #triangulofijo #texto2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #FFF;
+        font-size: 1.3rem;
+        font-weight: 600; } }
+
+#divOculto1, #divOculto2 {
+  margin-top: 30px; }
+
+#divOculto3, #divOculto4 {
+  margin-top: 5px; }
+
+#divOculto1, #divOculto2, #divOculto3, #divOculto4 {
+  float: left;
+  background: white;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center; }
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    #divOculto1, #divOculto2, #divOculto3, #divOculto4 {
+      width: 250px;
+      height: 50px; }
+      #divOculto1 #titulo1, #divOculto2 #titulo1, #divOculto3 #titulo1, #divOculto4 #titulo1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 26px;
+        font-weight: 550; }
+      #divOculto1 #texto1, #divOculto2 #texto1, #divOculto3 #texto1, #divOculto4 #texto1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #d9d9d9;
+        font-size: 24px;
+        font-weight: 550; }
+      #divOculto1 #titulo2, #divOculto2 #titulo2, #divOculto3 #titulo2, #divOculto4 #titulo2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 3rem;
+        font-weight: 300; }
+      #divOculto1 #texto2, #divOculto2 #texto2, #divOculto3 #texto2, #divOculto4 #texto2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 600; } }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #divOculto1, #divOculto2, #divOculto3, #divOculto4 {
+      width: 300px;
+      height: 60px; }
+      #divOculto1 #titulo1, #divOculto2 #titulo1, #divOculto3 #titulo1, #divOculto4 #titulo1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 2rem;
+        font-weight: 550; }
+      #divOculto1 #texto1, #divOculto2 #texto1, #divOculto3 #texto1, #divOculto4 #texto1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #d9d9d9;
+        font-size: 1.5rem;
+        font-weight: 550; }
+      #divOculto1 #titulo2, #divOculto2 #titulo2, #divOculto3 #titulo2, #divOculto4 #titulo2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 3.5rem;
+        font-weight: 300; }
+      #divOculto1 #texto2, #divOculto2 #texto2, #divOculto3 #texto2, #divOculto4 #texto2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #FFF;
+        font-size: 1rem;
+        font-weight: 600; } }
+  @media screen and (min-width: 1025px) {
+    #divOculto1, #divOculto2, #divOculto3, #divOculto4 {
+      width: 400px;
+      height: 60px; }
+      #divOculto1 #titulo1, #divOculto2 #titulo1, #divOculto3 #titulo1, #divOculto4 #titulo1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 2rem;
+        font-weight: 550; }
+      #divOculto1 #texto1, #divOculto2 #texto1, #divOculto3 #texto1, #divOculto4 #texto1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #d9d9d9;
+        font-size: 1.5rem;
+        font-weight: 550; }
+      #divOculto1 #titulo2, #divOculto2 #titulo2, #divOculto3 #titulo2, #divOculto4 #titulo2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 5rem;
+        font-weight: 300; }
+      #divOculto1 #texto2, #divOculto2 #texto2, #divOculto3 #texto2, #divOculto4 #texto2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #FFF;
+        font-size: 1.3rem;
+        font-weight: 600; } }
+
+.content {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.button {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #ad9a85;
+  display: flex;
+  position: relative;
+  text-decoration: none;
+  letter-spacing: 1px;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    .button {
+      font-size: 15px;
+      width: 250px;
+      margin-left: 5px;
+      height: 49px;
+      padding-right: 15px;
+      padding-left: 35px; }
+      .button #titulo1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 26px;
+        font-weight: 550; }
+      .button #texto1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #d9d9d9;
+        font-size: 24px;
+        font-weight: 550; }
+      .button #titulo2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 3rem;
+        font-weight: 300; }
+      .button #texto2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 600; } }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .button {
+      font-size: 15px;
+      width: 300px;
+      margin-left: 10px;
+      height: 60px;
+      padding-right: 20px;
+      padding-left: 30px; }
+      .button #titulo1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 2rem;
+        font-weight: 550; }
+      .button #texto1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #d9d9d9;
+        font-size: 1.5rem;
+        font-weight: 550; }
+      .button #titulo2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 3.5rem;
+        font-weight: 300; }
+      .button #texto2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #FFF;
+        font-size: 1rem;
+        font-weight: 600; } }
+  @media screen and (min-width: 1025px) {
+    .button {
+      font-size: 16px;
+      width: 350px;
+      margin-left: 10px;
+      height: 60px;
+      padding-right: 30px;
+      padding-left: 70px; }
+      .button #titulo1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 2rem;
+        font-weight: 550; }
+      .button #texto1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #d9d9d9;
+        font-size: 1.5rem;
+        font-weight: 550; }
+      .button #titulo2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 5rem;
+        font-weight: 300; }
+      .button #texto2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #FFF;
+        font-size: 1.3rem;
+        font-weight: 600; } }
+
+.button span {
+  position: absolute;
+  left: 0; }
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    .button span {
+      padding-left: 2px;
+      padding-right: 0px;
+      padding-right: 30px; }
+      .button span #titulo1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 26px;
+        font-weight: 550; }
+      .button span #texto1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #d9d9d9;
+        font-size: 24px;
+        font-weight: 550; }
+      .button span #titulo2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 3rem;
+        font-weight: 300; }
+      .button span #texto2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 600; } }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .button span {
+      font-size: 18px;
+      padding-top: 5px;
+      padding-right: 30px; }
+      .button span #titulo1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 2rem;
+        font-weight: 550; }
+      .button span #texto1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #d9d9d9;
+        font-size: 1.5rem;
+        font-weight: 550; }
+      .button span #titulo2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 3.5rem;
+        font-weight: 300; }
+      .button span #texto2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #FFF;
+        font-size: 1rem;
+        font-weight: 600; } }
+  @media screen and (min-width: 1025px) {
+    .button span {
+      padding: 5px 50px 0 0; }
+      .button span #titulo1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 2rem;
+        font-weight: 550; }
+      .button span #texto1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #d9d9d9;
+        font-size: 1.5rem;
+        font-weight: 550; }
+      .button span #titulo2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #c65353;
+        font-size: 5rem;
+        font-weight: 300; }
+      .button span #texto2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #FFF;
+        font-size: 1.3rem;
+        font-weight: 600; } }
+
+/*# sourceMappingURL=estilos.css.map */
